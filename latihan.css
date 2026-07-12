@@ -88,6 +88,11 @@
     margin-top: 100px;
 }
 
+.btn:hover{
+    background-color: #0e3b10;
+    font-weight: bold;
+}
+
 .fa-solid {
     color: #2e7d32;
     background-color: #eaeaea;
@@ -201,4 +206,8 @@
     font-size: 2em;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.fa-brands:hover{
+    color: #2e7d32;
 }

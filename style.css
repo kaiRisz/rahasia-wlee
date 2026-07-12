@@ -7,16 +7,16 @@
 .card1, .card2{
     background-color: rgb(128, 236, 239);
     padding: 20px;
-    min-height: 200px;
+    min-height: 100px;
     max-width: 250px;
     border-radius: 16px;
     border: 1px solid rgb(0, 0, 132) ;
-    margin: 20px;
+    margin: 20px auto;
 }
 p{
-    padding: 5px;
     text-align: justify;
-    margin: 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -51,4 +51,15 @@ h3{
     width: 250px;
     height: 250px;
     border-radius: 16px;
+}
+
+.box{
+    background-color: midnightblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 100px;
+    border-radius: 16px;
+    border: 5px solid #00d0ff;
+    justify-content: center;
+
 }

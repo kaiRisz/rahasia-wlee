@@ -132,3 +132,73 @@
 .logo-footer{
     width: 100px;
 }
+
+.footer{
+    background-color: #f7f9f7;
+    display: flex;
+}
+
+.footer-semua{
+    background-color: #f7f9f7;
+}
+
+.kanan{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.card-footer-left{
+    width: 300px;
+    display: block;
+    color: #757575;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.card-footer-right{
+    margin-left: 120px;
+    width: 200px;
+}
+
+.card-footer-right a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.card-footer-right a:hover{
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.fa-envelope{
+    color: #2e7d32;
+    background-color: #f7f9f7;
+    border-radius: 0;
+    padding: 0px;
+}
+
+.fa-phone{
+    color: #2e7d32;
+    background-color: #f7f9f7;
+    border-radius: 0;
+    padding: 0px;
+}
+
+.fa-location-dot{
+    color: #2e7d32;
+    background-color: #f7f9f7;
+    border-radius: 0;
+    padding: 0px;
+}
+
+.sosmed-icon{
+    display: inline;
+    margin-left: 30px;
+}
+
+.fa-brands{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,78 +1,48 @@
 *{
-    font-family: Tahoma;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
 }
 
 #header{
-    display: flex;
-    background-color: white;
-    border: 1px solid;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    padding: 10px 30px;
-    
-}
-
-#header img{
-    width: 150px;
-}
-
-.nav{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 750px;
-}
-
-#header li{
-    display: inline;
+    text-align: center;
+    background-color: #e0e0e0;
     padding: 10px;
 }
 
-.nav a{
-    text-decoration: none;
-    color: rgb(137, 137, 137);
+#nav li{
+    display: inline;
+    padding: 5px;
 }
 
-#home{
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-    gap: 30px   ;
-}
-
-#home p{
-    width: 500px;
-}
-
-#home img{
-    width: 500px;
-    float: right;
-    
-}
-
-#project{
+#highlight{
     text-align: center;
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 
-.title  {
+.article{
+    width: 290px;
+    border: 1px solid #aeaeae;
+    border-radius: 8px;
     text-align: center;
+    padding: 10px;
+    margin: 10px 10px;
 }
 
-.box-card{
-    margin: 40px auto;
+#footer{
+    text-align: center;
+    background-color: #aeaeae;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
-
 }
-.card{
-    border: 1px solid gray;
-    border-radius: 16px;
-    width: 300px;
-    margin: 15px;
-    padding: 10px;
-}
-

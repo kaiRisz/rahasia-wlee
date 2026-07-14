@@ -1,7 +1,13 @@
 * {
     box-sizing: border-box;
     font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+body{
     width: 95%;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -10,9 +16,13 @@
 }
 
 #header{
-    background-color: azure;
+    background-color: rgb(158, 243, 175);
     height: 80px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap: 50px;
 }
 
 .nav{
@@ -32,34 +42,38 @@
 }
 
 #content{
-    background-color: azure;
+    background-color: rgb(158, 243, 175);
     margin-top: 10px;
     padding: 10px;
     text-align: center;
 }
 
+#content img{
+    max-width: 100%;
+    height: auto;
+}
+
 .box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: space-between;
+    gap: 2%;
 }
 
 .card{
-    width: 300px;
+    width: 31%;
     border: #2d00b5 1px solid;
     border-radius: 8px;
-    margin: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
-.card p{
+.card p{    
     text-align: justify;
     margin-top: 5px;
 }
 
 #footer{
-    background-color: azure;
+    background-color: rgb(158, 243, 175);
     margin-top: 10px;
     padding: 20px;
     text-align: center;
